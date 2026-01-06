@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swipe Opportunities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Swipe Opportunities</h1>
+
+    <!-- Domain Selector -->
+    <div class="domain-selector">
+        <button onclick="setDomain('freelance')">Freelance</button>
+        <button onclick="setDomain('project')">Project Ideas</button>
+        <button onclick="setDomain('volunteer')">Volunteering</button>
+    </div>
+
+    <!-- Card -->
+    <div class="card">
+        <h2 id="title">Choose a domain</h2>
+        <p id="description">Opportunities will appear here</p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="actions">
+        <button onclick="skip()">👈 Skip</button>
+        <button onclick="save()">👉 Save</button>
+    </div>
+
+    <button onclick="showSaved()">📂 View Saved</button>
+
+    <div id="savedList"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

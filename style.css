@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+.domain-selector button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.actions button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
