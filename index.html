@@ -2,37 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Swipe Opportunities</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Swipe Dreams</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
 
-    <h1>Swipe Opportunities</h1>
+<body class="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-pink-200 flex items-center justify-center">
 
-    <!-- Domain Selector -->
-    <div class="domain-selector">
-        <button onclick="setDomain('freelance')">Freelance</button>
-        <button onclick="setDomain('project')">Project Ideas</button>
-        <button onclick="setDomain('volunteer')">Volunteering</button>
+  <div class="bg-white/80 backdrop-blur-xl w-full max-w-md rounded-3xl shadow-xl p-6">
+
+    <!-- HEADER -->
+    <div class="flex justify-between items-center mb-4">
+      <h1 class="text-xl font-bold text-pink-500">Swipe Dreams ✨</h1>
+      <button type="button" onclick="logout()" class="text-sm text-pink-400 hover:underline">
+        logout
+      </button>
     </div>
 
-    <!-- Card -->
-    <div class="card">
-        <h2 id="title">Choose a domain</h2>
-        <p id="description">Opportunities will appear here</p>
+    <!-- DOMAIN BUTTONS -->
+    <div class="flex justify-center gap-2 mb-4">
+      <button type="button" onclick="setDomain('freelance')" class="px-4 py-2 bg-pink-200 rounded-full text-sm shadow">
+        💼 Freelance
+      </button>
+      <button type="button" onclick="setDomain('project')" class="px-4 py-2 bg-purple-200 rounded-full text-sm shadow">
+        💡 Projects
+      </button>
+      <button type="button" onclick="setDomain('volunteer')" class="px-4 py-2 bg-pink-200 rounded-full text-sm shadow">
+        🌍 Volunteer
+      </button>
     </div>
 
-    <!-- Action Buttons -->
-    <div class="actions">
-        <button onclick="skip()">👈 Skip</button>
-        <button onclick="save()">👉 Save</button>
+    <!-- CARD -->
+   <div id="card" class="bg-white rounded-2xl p-6 text-center shadow-inner cursor-pointer transition-transform duration-200">
+
+      <h2 id="title" class="text-lg font-semibold mb-2">
+        Choose a domain
+      </h2>
+      <p id="description" class="text-gray-600"></p>
+      <p class="text-xs text-pink-400 mt-4">
+        swipe right 💗 save • swipe left 💔 skip
+      </p>
     </div>
 
-    <button onclick="showSaved()">📂 View Saved</button>
+    <!-- ACTION BUTTONS -->
+    <div class="flex gap-4 mt-4">
+      <button type="button" onclick="skip()" class="w-1/2 py-3 bg-pink-100 rounded-2xl">
+        Skip 💔
+      </button>
 
-    <div id="savedList"></div>
+      <button type="button" onclick="save()" class="w-1/2 py-3 bg-pink-400 text-white rounded-2xl">
+        Save 💗
+      </button>
+    </div>
 
+    <!-- VIEW SAVED (simple, no alignment tricks) -->
+    <a href="saved.html" class="block text-center mt-4 text-pink-500">
+      💖 View Saved
+    </a>
 
-    <script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

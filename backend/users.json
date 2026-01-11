@@ -1,0 +1,96 @@
+[
+    {
+        "username": "sneha",
+        "password": "sss",
+        "saved": {
+            "freelance": [
+                {
+                    "title": "Frontend Intern",
+                    "desc": "HTML, CSS, JavaScript"
+                }
+            ],
+            "project": [
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                }
+            ],
+            "volunteer": [
+                {
+                    "title": "Teach Kids",
+                    "desc": "Online weekend teaching"
+                },
+                {
+                    "title": "Teach Kids",
+                    "desc": "Online weekend teaching"
+                },
+                {
+                    "title": "Teach Kids",
+                    "desc": "Online weekend teaching"
+                }
+            ]
+        }
+    },
+    {
+        "username": "senitha",
+        "password": "12345",
+        "saved": {
+            "freelance": [],
+            "project": [
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                },
+                {
+                    "title": "Weather App",
+                    "desc": "API-based JavaScript project"
+                }
+            ],
+            "volunteer": []
+        }
+    }
+]
